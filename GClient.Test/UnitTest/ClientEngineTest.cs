@@ -49,7 +49,7 @@ namespace GClient.Test.UnitTest
         }
 
         [Trait("ServerestIntegration", "SendRequestAsyncGeneric")]
-        [Theory(DisplayName = "SendRequestAsyncGeneric_WhenResponseError_ThowsIntegrationException - Error")]
+        [Theory(DisplayName = "SendRequestAsyncGeneric_WhenResponseError_ThowsFlurlHttpException - Error")]
         [InlineData(400)]
         [InlineData(500)]
         public async Task SendRequestAsyncGeneric_WhenResponseError_ThowsIntegrationException(int status)
