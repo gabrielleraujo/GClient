@@ -4,10 +4,10 @@ using Newtonsoft.Json;
 using FluentAssertions;
 using Microsoft.Extensions.Logging;
 using GClient.Test.Extensions;
-using GClient.Test.Core.Factories;
 using GClient.Engine;
+using GClient.Test.Factories;
 
-namespace GClient.Test.Serverest.UnitTestIntegration
+namespace GClient.Test.UnitTest
 {
     public class ClientEngineTest
     {

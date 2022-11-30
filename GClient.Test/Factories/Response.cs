@@ -1,4 +1,4 @@
-﻿namespace GClient.Test.Core.Factories
+﻿namespace GClient.Test.Factories
 {
     public class Response
     {
